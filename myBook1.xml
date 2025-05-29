@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!ELEMENT (book+) >
+<!ELEMENT book (title, author, isbn, publisher, edition, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+    <title>Web Technology</title>
+    <author>Basanta Chapagain</author>
+    <isbn>978-9937-724-62-3</isbn>
+    <publisher>KEC publication</publisher>
+    <edition>First</edition>
+    <price>425.00</price>
+</book>
