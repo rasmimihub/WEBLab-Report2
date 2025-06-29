@@ -1,0 +1,10 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, symbol_number, marks, total_marks, percentage)>
+<!ATTLIST student reg_no CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT symbol_number (#PCDATA)>
+<!ELEMENT marks (subject+)>
+<!ELEMENT subject (#PCDATA)>
+<!ATTLIST subject name CDATA #REQUIRED>
+<!ELEMENT total_marks (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>

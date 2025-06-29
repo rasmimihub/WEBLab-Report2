@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Question17.xsd">
+  <salesman>
+    <name title="Mr.">
+      <first>Ramesh</first>
+      <middle>Kumar</middle>
+      <last>Sharma</last>
+    </name>
+    <phone type="work">+977-9812345678</phone>
+    <area>Kathmandu</area>
+    <records>
+      <record>
+        <product productid="P001">
+          <sku>SK123</sku>
+          <product_name>Wireless Mouse</product_name>
+        </product>
+        <quantity>10</quantity>
+        <price currency="usd">25.99</price>
+        <date type="ad">2025-05-25</date>
+      </record>
+      <record>
+        <product productid="P002">
+          <sku>SK456</sku>
+          <product_name>Keyboard</product_name>
+        </product>
+        <quantity>5</quantity>
+        <price currency="npr">4500</price>
+        <date type="bs">2082-02-11</date>
+      </record>
+    </records>
+  </salesman>
+  <salesman>
+    <name title="Ms.">
+      <first>Sunita</first>
+      <last>Ghimire</last>
+    </name>
+    <phone type="personal">+977-9841123456</phone>
+    <area>Pokhara</area>
+    <records>
+      <record>
+        <product productid="P003">
+          <sku>SK789</sku>
+          <product_name>Laptop</product_name>
+        </product>
+        <quantity>2</quantity>
+        <price currency="inr">45000</price>
+        <date type="ad">2025-05-24</date>
+      </record>
+    </records>
+  </salesman>
+</sales>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (rollno, name, address, DOB, email, phone)>
+    <!ELEMENT rollno (#PCDATA)>
+    <!ELEMENT name (firstName, middleName?, lastName)>
+    <!ELEMENT firstName (#PCDATA)>
+    <!ELEMENT middleName (#PCDATA)>
+    <!ELEMENT lastName (#PCDATA)>
+    <!ELEMENT address (permanent, temporary?)>
+    <!ELEMENT permanent (#PCDATA)>
+    <!ELEMENT temporary (#PCDATA)>
+    <!ELEMENT DOB (#PCDATA)>
+    <!ATTLIST DOB type (AD | BS) #REQUIRED>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ATTLIST phone type CDATA #IMPLIED>
+]>
+<students>
+    <student>
+        <rollno>12345</rollno>
+        <name>
+            <firstName>John</firstName>
+            <lastName>Doe</lastName>
+        </name>
+        <address>
+            <permanent>Kathmandu, Nepal</permanent>
+        </address>
+        <DOB type="BS">2057-02-15</DOB>
+        <email>john.doe@example.com</email>
+        <phone>9812345678</phone>
+    </student>
+</students>

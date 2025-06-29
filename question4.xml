@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library [
+    <!ELEMENT library (book+)>
+    <!ELEMENT book (title, author+, pageNo, price)>
+    <!ATTLIST book ISBN CDATA #REQUIRED>
+
+    <!ELEMENT title (#PCDATA)>
+    
+    <!ELEMENT author (firstName, middleName?, lastName, phone, email)>
+    <!ATTLIST author title (mr|ms|mrs) "ms">
+    <!ELEMENT firstName (#PCDATA)>
+    <!ELEMENT middleName (#PCDATA)>
+    <!ELEMENT lastName (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    
+    <!ELEMENT pageNo (#PCDATA)>
+    
+    <!ELEMENT price (#PCDATA)>
+    <!ATTLIST price currency (NPR|INR|USD) #REQUIRED>
+]>
+<library>
+    <book ISBN="1234567890">
+        <title>XML Guide</title>
+        <author title="mr">
+            <firstName>John</firstName>
+            <middleName>A.</middleName>
+            <lastName>Doe</lastName>
+            <phone>123456789</phone>
+            <email>john.doe@example.com</email>
+        </author>
+        <author title="ms">
+            <firstName>Jane</firstName>
+            <lastName>Smith</lastName>
+            <phone>987654321</phone>
+            <email>jane.smith@example.com</email>
+        </author>
+        <pageNo>250</pageNo>
+        <price currency="USD">599</price>
+    </book>
+</library>

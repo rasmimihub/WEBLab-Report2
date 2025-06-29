@@ -1,0 +1,17 @@
+<!ELEMENT Employees (Employee+)>
+<!ELEMENT Employee (Post, Salary, Gender, UserName, Password)>
+
+<!ELEMENT Post (#PCDATA)>
+<!ELEMENT Salary (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+
+<!ATTLIST Employee id ID #REQUIRED>
+
+<!ATTLIST UserName minlength CDATA "8">
+<!ATTLIST Post minlength CDATA "5" maxlength CDATA "8">
+<!ATTLIST Password minlength CDATA "8">
+<!ATTLIST Password pattern CDATA "[A-Z][a-z][0-9]{6}">
+<!ATTLIST Gender (male | female | others) #REQUIRED>
+<!ATTLIST Salary min CDATA "25000" max CDATA "50000">

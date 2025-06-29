@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Question7.xsd">
+<Movie id="m001">
+<title>Aaa mero hajur</title>
+<year>2078</year>
+<_director>
+<_directorname>mr binod bista</_directorname>
+</_director>
+<comment type="en">it was amazing</comment>
+<newcomment>amazing</newcomment>
+</Movie>
+<Movie id="m089">
+<title>golmaal</title>
+<year>July 14, 2006</year>
+<_director>
+<_directorname>Rohit Shetty</_directorname>
+</_director>
+<comment type="en">it was fun and comedy at the same time</comment>
+<newcomment>amazing</newcomment>
+</Movie>
+</Movies>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Question9.xsl" ?>
+<!DOCTYPE content [
+    <!ELEMENT content (header, category+)>
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT category (topic+)>
+    <!ATTLIST category name CDATA #REQUIRED>
+    <!ELEMENT topic (#PCDATA)>
+]>
+<content>
+    <header>Hello Everyone! Welcome to XML to CSSS</header>
+    <category name="Algo">
+        <topic>Greedy Algo</topic>
+        <topic>Randomised Algo</topic>
+        <topic>Searching Algo</topic>
+        <topic>Sorting Algo</topic>
+    </category>
+    
+        <category name="Data Structures">
+        <topic>Array</topic>
+        <topic>Stack</topic>
+        <topic>Queue</topic>
+        <topic>Linked List</topic>
+    </category>
+    
+      <category name="Web Technology">
+        <topic>HTML</topic>
+        <topic>CSS</topic>
+        <topic>Java</topic>
+        <topic>Php</topic>
+    </category>
+    
+    <category name="Languages">
+        <topic>C/C++</topic>
+        <topic>Java</topic>
+        <topic>Python</topic>
+        <topic>Ruby</topic>
+    </category>
+    
+      <category name="DBMS">
+        <topic>Basics</topic>
+        <topic>ER Diagram</topic>
+        <topic>Normallization</topic>
+        <topic>Transaction concept</topic>
+    </category>
+    
+</content>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Question10.xsl" ?>
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book+)>
+    <!ELEMENT book (title, author, publisher, Edition, price)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT publisher (#PCDATA)>
+    <!ELEMENT Edition (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+]>
+<booklist>
+      <book>
+          <title>Web programming</title>
+          <author>chrisbates</author>
+          <publisher>Wiley</publisher>
+          <Edition>3</Edition>
+          <price>300</price>
+      </book>
+      
+        <book>
+          <title>Internet world-wide web</title>
+          <author>Ditel</author>
+          <publisher>pearson</publisher>
+          <Edition>3</Edition>
+          <price>400</price>
+      </book>
+      
+      <book>
+          <title>computer network</title>
+          <author>foruouzans</author>
+          <publisher>mc graw hill</publisher>
+          <Edition>5</Edition>
+          <price>700</price>
+      </book>
+      
+      <book>
+          <title>DBMS concept</title>
+          <author>Navath</author>
+          <publisher>oxford</publisher>
+          <Edition>5</Edition>
+          <price>600</price>
+      </book>
+      
+        <book>
+          <title>Linux programming</title>
+          <author>Subhitab</author>
+          <publisher>oxford</publisher>
+          <Edition>8</Edition>
+          <price>300</price>
+      </book>
+      
+      
+
+</booklist>

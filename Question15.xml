@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employees SYSTEM "Question15.dtd">
+<Employees>
+    <Employee id="E001">
+        <Post>Manager</Post>
+        <Salary>30000</Salary>
+        <Gender>male</Gender>
+        <UserName>johnsmith</UserName>
+        <Password>Aa123456</Password>
+    </Employee>
+    <Employee id="E002">
+        <Post>Clerk</Post>
+        <Salary>25000</Salary>
+        <Gender>female</Gender>
+        <UserName>janedoe12</UserName>
+        <Password >Ab987654</Password>
+    </Employee>
+    <Employee id="E003">
+        <Post>Admin</Post>
+        <Salary>45000</Salary>
+        <Gender>others</Gender>
+        <UserName>adminuser</UserName>
+        <Password>Ac135790</Password>
+    </Employee>
+    <Employee id="E004">
+        <Post>Sales</Post>
+        <Salary>40000</Salary>
+        <Gender>male</Gender>
+        <UserName>saleslead</UserName>
+        <Password>Ad567123</Password>
+    </Employee>
+    <Employee id="E005">
+        <Post>HR</Post>
+        <Salary>50000</Salary>
+        <Gender>female</Gender>
+        <UserName>hrmanager</UserName>
+        <Password>Ae345678</Password>
+    </Employee>
+</Employees>

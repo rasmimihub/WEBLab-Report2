@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Question18.xsl"?>
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, symbol_number, marks, total_marks, percentage)>
+<!ATTLIST student reg_no CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT symbol_number (#PCDATA)>
+<!ELEMENT marks (subject+)>
+<!ELEMENT subject (#PCDATA)>
+<!ATTLIST subject name CDATA #REQUIRED>
+<!ELEMENT total_marks (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>
+]>
+<students>
+    <student reg_no="545454">
+        <name>Ram Thapa</name>
+        <symbol_number>87878</symbol_number>
+        <marks>
+            <subject name="web">54</subject>
+            <subject name="dsa">54</subject>
+            <subject name="java">54</subject>
+            <subject name="sad">54</subject>
+            <subject name="stat">54</subject>
+        </marks>
+        <total_marks>270</total_marks>
+        <percentage>54</percentage>
+    </student>
+</students>

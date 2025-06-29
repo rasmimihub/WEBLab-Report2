@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Question16.xsl"?>
+<!DOCTYPE products [
+<!ELEMENT products (product+)>
+<!ELEMENT product (productname, category, price, quantity)>
+<!ELEMENT productname (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+]>
+
+<products>
+  <product>
+    <productname>Wireless Mouse</productname>
+    <category>Electronics</category>
+    <price>25</price>
+    <quantity>15</quantity>
+  </product>
+  <product>
+    <productname>Keyboard</productname>
+    <category>Electronics</category>
+    <price>45</price>
+    <quantity>10</quantity>
+  </product>
+  <product>
+    <productname>Notebook</productname>
+    <category>Stationery</category>
+    <price>5</price>
+    <quantity>20</quantity>
+  </product>
+  <product>
+    <productname>Pen</productname>
+    <category>Stationery</category>
+    <price>2</price>
+    <quantity>30</quantity>
+  </product>
+</products>

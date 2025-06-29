@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="Question13.xsd">
+    <Patient>
+        <PatientNumber>12345</PatientNumber>
+        <Name>
+            <FirstName>John</FirstName>
+            <MiddleName>A.</MiddleName>
+            <LastName>Doe</LastName>
+        </Name>
+        <DoctorName>Dr. Smith</DoctorName>
+        <Diseases>
+            <Disease>Diabetes</Disease>
+            <Disease>Hypertension</Disease>
+        </Diseases>
+        <ConsultationCharge>1500</ConsultationCharge>
+        <LabTests>
+            <Test>Blood Test</Test>
+            <Test>Urine Test</Test>
+        </LabTests>
+    </Patient>
+</Hospital>
